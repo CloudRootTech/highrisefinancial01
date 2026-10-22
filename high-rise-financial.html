@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>High Rise Financial | high rise financial</title>
+    <meta name="description" content="high rise financial">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.highriselegalfunding.com/wp-content/uploads/2023/11/highriselegalfunding.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="High Rise Financial | high rise financial">
+    <meta property="og:description" content="high rise financial">
+    <meta property="og:image" content="project-media/130/high01.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/130/high01.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="high rise financial home">high rise financial</a>
+            </h1>
+            <div><a href="facebook.com/highriselegalfunding" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="twitter.com/hrflegalfunding" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/130/high01.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">High Rise Financial</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Evaluating Lawsuit Funding Providers</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Initial research is most useful when it moves beyond promotional language and tests what can be independently verified. A prospective customer might review <a href="https://www.highriselegalfunding.com/" class="inline-link">high rise financial</a> by confirming its corporate identity and learning who stands behind the service. The same approach can be applied to high rise financial, allowing reputation and convenience to be weighed against evidence gathered from reliable sources.</p>
+                            <p>Terms deserve a separate reading before any document is signed. Ask whether high rise financial describes how charges are calculated and identifies circumstances that could alter the amount payable. A prospective customer should also ask high rise financial how amendments are approved or disagreements handled, then keep the answer with the final paperwork.</p>
+                            <p>Service quality becomes easier to judge after the first conversation. Notice whether questions receive consistent answers, records arrive when promised, and staff explain limitations without creating artificial urgency. If high rise financial cannot maintain that standard, postponing a commitment may be wiser than allowing a persuasive presentation to determine the choice.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/131/high02.jpg" loading="lazy" decoding="async" alt="high rise financial image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">Legal Capital For Personal Needs</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Managing a substantial professional expense starts with a practical view of the amount required, the timing of each payment, and the effect on ordinary household commitments. high rise financial may be one option to examine when immediate flexibility matters, but the decision should rest on a complete budget rather than a short-term sense of relief. Any proposal from high rise financial should state the total expected cost, the repayment structure, and the events that could alter either figure.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Before agreeing to terms, applicants should understand the approval process, the handling of personal information, and the consequences of a missed payment. It is reasonable to ask high rise financial whether early settlement is allowed, whether fees accrue during delays, and how concerns are escalated. Where a provider works alongside a solicitor or another professional adviser, high rise financial should explain each party's role so communication remains orderly and confidential.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/gJ_OVNoJMqk?si=iP4kAafk8AVL_NQb" loading="lazy" title="high rise financial video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Affordability should be tested against ordinary income, essential spending, and a modest allowance for change, not against the most favorable forecast. Keeping the agreement, payment history, and relevant correspondence in one secure place can make later review easier. The value of high rise financial ultimately depends on clear information, fair treatment, and a process that helps the customer make a measured decision.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Navigating Legal Finance Decisions</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Before accepting outside capital for a legal matter, an organization should map the proposed arrangement against its governance rules, reporting duties, and tolerance for commercial risk. A review of high rise financial is most useful when the source explains its role, authority, and approach to confidential material. Decision-makers should ask whether high rise financial supplies a plain-language description of fees, repayment triggers, and any rights it may seek during the matter. This review creates a record for directors or other approving bodies and reduces the chance that important conditions are overlooked.</p>
+                            <p>Written terms deserve the same attention as headline economics. Examine how the arrangement defines eligible costs, treatment of proceeds, control over settlement discussions, and the consequences of a change in legal strategy. Questions directed to high rise financial should be answered in writing, especially where the contract allows information requests or approval over major procedural steps. A side-by-side reading of high rise financial against advice from qualified legal and accounting advisers can reveal provisions that are easy to miss in an introductory call.</p>
+                            <p>Once an arrangement is shortlisted, the organization should establish internal owners for document access, compliance checks, and communications with counsel. It is also wise to define what happens if the claim changes scope, a key witness becomes unavailable, or a proposed resolution arrives earlier than expected; these events can affect both obligations and authority. Keeping a dated decision log, with reasons for accepting or rejecting material terms from high rise financial, supports accountability and makes later review more efficient.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>High Rise Financial</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.759489569303!2d-118.44674839999999!3d34.0500401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb7a36855555%3A0x60e002d1c3fbb70b!2sHigh%20Rise%20Financial%20LLC!5e0!3m2!1sen!2sin!4v1791287608303!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">High Rise Financial </p>
+                    <p style="color: #000000;">"11110 Ohio Avenue, #207
+Los Angeles, CA 90025"</p>
+                    <p style="color: #000000;">(866) 407-6404</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">High Rise Financial </h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="high-rise-financial.html" rel="noopener">Company Website</a></li>    <li><a class="link-light footer-link" href="https://www.highriselegalfunding.com/" rel="noopener">https://www.highriselegalfunding.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Useful Links</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Evaluating Lawsuit Funding Providers</a></li>    <li><a class="link-light footer-link" href="https://www.highriselegalfunding.com/" rel="noopener">Legal Capital For Personal Needs</a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/ixo9LEVBhUrmxu9XA" rel="noopener">Navigating Legal Finance Decisions</a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="facebook.com/highriselegalfunding" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="twitter.com/hrflegalfunding" rel="noopener">Twitter</a></li>    <li><a class="link-light footer-link" href="https://www.pinterest.com/HighRiseFinancial/" rel="noopener">Pinterest</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="Los Angeles, California">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>Los Angeles, California</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-21/where-are-californias-dead-trees-going-forest-advocate-turned-detective-to-find-out" target="_blank" rel="noopener noreferrer"><h3>Where are California’s dead trees going? A forest advocate turned detective to find out</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/03e0a73/2147483647/strip/true/crop/9150x4804+0+648/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2d%2Fd7%2F32caab2443e2993ff470c3a7036e%2F1569114-me-sequoia-forest-dead-trees-07.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Thousands of trees killed in a wildfire are being cut down and removed from California&#x27;s Sierra. But what is happening to them? A wildlife biologist was determined to find out.</p><div class="safe-news-meta">latimes.com - 1h</div></a><a class="safe-news-card" href="https://www.latimes.com/politics/story/2026-10-21/becerras-time-in-washington-steady-rise-with-bumpy-final-ascent" target="_blank" rel="noopener noreferrer"><h3>Becerra&#x27;s time in Washington: Steady rise with a bumpy final ascent</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/844eca4/2147483647/strip/true/crop/5881x3088+0+417/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7e%2F10%2Fd5ced3924814a30f7efc708cf112%2Fbiden-35699.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>In his more than 25 years in Washington, Xavier Becerra built important alliances and amassed power on Capitol Hill, but had some stumbles along the way.</p><div class="safe-news-meta">latimes.com - 1h</div></a><a class="safe-news-card" href="https://www.latimes.com/entertainment-arts/story/2026-10-21/reggie-burrows-hodges-remixes-old-masters-for-la-homecoming" target="_blank" rel="noopener noreferrer"><h3>Reggie Burrows Hodges remixes the Old Masters for an L.A. homecoming</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/f2c33b7/2147483647/strip/true/crop/4000x2100+0+284/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffd%2F02%2Fc30b950d426394bedae71f2dea68%2F1574325-et-reggie-burrows-hodges-getty-0001.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Reggie Burrows Hodges is the subject of three concurrent L.A. exhibitions at the Getty, the California African American Museum and Art + Practice. These will mark his first-ever solo presentations in his hometown.</p><div class="safe-news-meta">latimes.com - 1h</div></a><a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-21/lopez-column-lax-skylink-people-mover-delays" target="_blank" rel="noopener noreferrer"><h3>LAX&#x27;s long-delayed people mover: The little engine that can&#x27;t</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/ef695f9/2147483647/strip/true/crop/8640x4536+0+612/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4c%2Fe3%2F0dcf9edc4828b3de3f5b29d7987c%2F1574892-me-transit-lax-people-mover-klb-001.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Years of delays for the SkyLink people mover at LAX have led to finger-pointing, litigation and a grand jury probe into how a $1.9-billion project has become a $3.3-billion boondoggle.</p><div class="safe-news-meta">latimes.com - 1h</div></a><a class="safe-news-card" href="https://www.latimes.com/business/story/2026-10-21/portos-bakery-to-open-new-location-in-southern-california" target="_blank" rel="noopener noreferrer"><h3>Porto&#x27;s Bakery to open new location in Southern California</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/6871fce/2147483647/strip/true/crop/3960x2079+0+281/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F91%2F81%2F0bb4678747d9bcf72d404ca04928%2F475927-fo-rosa-porto-0011.JPG" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The longstanding Cuban-American bakery is bringing its signature cheese rolls and potato balls to a 50,000 square foot commercial development in Ontario.</p><div class="safe-news-meta">latimes.com - 1h</div></a><a class="safe-news-card" href="https://www.sacbee.com/news/california/fires/article317712342.html" target="_blank" rel="noopener noreferrer"><h3>Breaking: New wildfire reported in Los Angeles County on Oct. 21</h3><img src="https://www.mcclatchy-wires.com/public/incoming/6yjfgx/picture290003454/alternates/LANDSCAPE_1200/904274ad-cc18-4c6a-b772-fd81b276817c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>First discovered: 2:31 a.m. Oct. 21</p><div class="safe-news-meta">sacbee.com - 1h</div></a><a class="safe-news-card" href="https://www.sacbee.com/news/california/fires/article317710975.html" target="_blank" rel="noopener noreferrer"><h3>Breaking: New wildfire reported in Los Angeles County on Oct. 20</h3><img src="https://www.mcclatchy-wires.com/public/incoming/6yjfgx/picture290003454/alternates/LANDSCAPE_1200/904274ad-cc18-4c6a-b772-fd81b276817c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>First discovered: 11:15 p.m. Oct. 20</p><div class="safe-news-meta">sacbee.com - 4h</div></a><a class="safe-news-card" href="https://sports.yahoo.com/articles/no-joy-seeing-blake-griffin-060110642.html" target="_blank" rel="noopener noreferrer"><h3>‘I Get No Joy in Seeing This’ – Blake Griffin Expresses Sympathy Over Clippers’ Punishment Despite Controversial Exit From Los Angeles</h3><img src="https://s.yimg.com/lo/mysterio/api/015f6b04946034f77debd247e9592ed289149c5e772c01cf951a5258464fb00a/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpro_football_network_512%2F69067896f9e78422dc02f14f46613104.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Blake Griffin deserves a lot of credit for helping the Los Angeles Clippers around after they made him the number one overall pick in the 2009 draft. Griffin was an All-Star from 2011-2015 with the Clippers, but had an ugly exit in 2018 that saw him dealt to the Detroit Pistons.</p><div class="safe-news-meta">sports.yahoo.com - 5h</div></a><a class="safe-news-card" href="https://sports.yahoo.com/articles/free-agent-centers-put-bronny-054807673.html" target="_blank" rel="noopener noreferrer"><h3>Free Agent Centers Put Bronny James Lakers Future in Doubt</h3><img src="https://s.yimg.com/lo/mysterio/api/f4249c2d3e0de67bbe0e051bfb825957e30981f6641eb4448eed8c599d9cbb81/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2Fd2cf4198716141565f7f72ed47da8e1c.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The Los Angeles Lakers cutting Dalton Knecht over Bronny James sees the current roster finalized for opening night. However, there are rumors that the team would like to add another center to have flexibility in today’s NBA. Most other teams have a noteworthy center who the Lakers will have to defend. Walker Kessler’s injury history […] The post Free Agent Centers Put Bronny James Lakers Future in Doubt appeared first on HEAVY.</p><div class="safe-news-meta">sports.yahoo.com - 5h</div></a><a class="safe-news-card" href="https://www.sacbee.com/news/california/fires/article317710372.html" target="_blank" rel="noopener noreferrer"><h3>Breaking: New wildfire reported in Los Angeles County on Oct. 20</h3><img src="https://www.mcclatchy-wires.com/public/incoming/6yjfgx/picture290003454/alternates/LANDSCAPE_1200/904274ad-cc18-4c6a-b772-fd81b276817c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>First discovered: 9:24 p.m. Oct. 20</p><div class="safe-news-meta">sacbee.com - 6h</div></a><a class="safe-news-card" href="https://www.sacbee.com/news/california/fires/article317710115.html" target="_blank" rel="noopener noreferrer"><h3>Breaking: New wildfire reported in Los Angeles County on Oct. 20</h3><img src="https://www.mcclatchy-wires.com/public/incoming/6yjfgx/picture290003454/alternates/LANDSCAPE_1200/904274ad-cc18-4c6a-b772-fd81b276817c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>First discovered: 8:17 p.m. Oct. 20</p><div class="safe-news-meta">sacbee.com - 7h</div></a><a class="safe-news-card" href="https://www.sacbee.com/news/california/fires/article317709928.html" target="_blank" rel="noopener noreferrer"><h3>Breaking: Carbon Fire reported in Los Angeles County on Oct. 20</h3><img src="https://www.mcclatchy-wires.com/public/incoming/6yjfgx/picture290003454/alternates/LANDSCAPE_1200/904274ad-cc18-4c6a-b772-fd81b276817c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>First discovered: 7:44 p.m. Oct. 20</p><div class="safe-news-meta">sacbee.com - 7h</div></a><a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-20/parents-are-charged-13-year-old-sons-e-motorcycle-collision-death" target="_blank" rel="noopener noreferrer"><h3>Parents are charged 13-year-old son&#x27;s e-motorcycle collision death</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/2c50c15/2147483647/strip/true/crop/1364x716+0+96/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F01%2Fac%2F05e7a7e7411288d345fb23ea0e84%2Fla-e-bike-garden-grove-memorial-102026.JPG" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Orange County Dist. Atty. Todd Spitzer announced charges Tuesday for Santa Ana resident Vu Thanh Nguyen, 56, and his wife Hong Cuc Thi Nguyen, 49. Their 13-year-old son Benson Nguyen died after hitting a pole in Garden Grove while traveling over 40 miles per hour, Spitzer’s office said.</p><div class="safe-news-meta">latimes.com - 8h</div></a><a class="safe-news-card" href="https://deadline.com/gallery/wicker-red-carpet-premiere-photos-black-bear-pictures/" target="_blank" rel="noopener noreferrer"><h3>&#x27;Wicker&#x27; Red Carpet Premiere Photos: Olivia Colman, Alexander Skarsgård &amp; More</h3><img src="https://deadline.com/wp-content/uploads/2026/10/wicker-red-carpet-photos.jpg?w=1024" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Wicker stars Olivia Colman, Alexander Skarsgård, and Elizabeth Debicki attended the Los Angeles premiere of their film at the DGA Theater.</p><div class="safe-news-meta">deadline.com - 8h</div></a><a class="safe-news-card" href="https://nypost.com/2026/10/20/us-news/driver-hits-democratic-policies-over-soaring-california-gas-prices/" target="_blank" rel="noopener noreferrer"><h3>Los Angeles drivers are fed up with sky-high gas prices — and their patience is running on empty</h3><img src="https://nypost.com/wp-content/uploads/sites/2/2026/10/145888488-1.jpg?quality=75&amp;strip=all&amp;w=1200" alt="" loading="lazy" referrerpolicy="no-referrer"><div class="safe-news-meta">nypost.com - 8h</div></a><a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-20/2026-california-election-los-angeles-county-superior-court-judge-office-131-voter-guide" target="_blank" rel="noopener noreferrer"><h3>L.A. County Superior Court Judge Office 131 voter guide</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/8fcf5ae/2147483647/strip/true/crop/3000x1575+0+213/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F33%2Fcb%2F90b5cf10424980db173be1b855e3%2Fvoting-guide-2026-judges.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Donna Tryfman and David Ross are competing for the Superior Court Judge Office 131 seat. Here&#x27;s what you need to know about the race.</p><div class="safe-news-meta">latimes.com - 8h</div></a><a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-20/2026-california-election-los-angeles-county-superior-court-judge-office-87-voter-guide" target="_blank" rel="noopener noreferrer"><h3>L.A. County Superior Court Judge Office 87 voter guide</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/8fcf5ae/2147483647/strip/true/crop/3000x1575+0+213/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F33%2Fcb%2F90b5cf10424980db173be1b855e3%2Fvoting-guide-2026-judges.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Anthony “A.J.” Bayne and David DeJute are competing for the Superior Court Judge Office 87 seat. Here&#x27;s what you need to know about the race.</p><div class="safe-news-meta">latimes.com - 8h</div></a><a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-20/2026-california-election-los-angeles-county-superior-court-judge-office-65-voter-guide" target="_blank" rel="noopener noreferrer"><h3>L.A. County Superior Court Judge Office 65 voter guide</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/8fcf5ae/2147483647/strip/true/crop/3000x1575+0+213/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F33%2Fcb%2F90b5cf10424980db173be1b855e3%2Fvoting-guide-2026-judges.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Justin Allen Clayton and Anna Slotky Reitano are competing for the Superior Court Judge Office 65 seat. Here&#x27;s what you need to know about the race.</p><div class="safe-news-meta">latimes.com - 8h</div></a><a class="safe-news-card" href="https://heavy.com/sports/nba/golden-state-warriors/golden-state-warriors-and-los-angeles-lakers-announce-full-injury-reports/" target="_blank" rel="noopener noreferrer"><h3>Golden State Warriors And Los Angeles Lakers Announce Full Injury Reports</h3><img src="https://heavy.com/wp-content/uploads/2026/10/GettyImages-2264135405.jpg?quality=65&amp;strip=all" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The Golden State Warriors and Los Angeles Lakers have announced their injury reports for Wednesday&#x27;s game.</p><div class="safe-news-meta">heavy.com - 8h</div></a><a class="safe-news-card" href="https://www.hola.com/us/celebrities/20261020930291/knox-jolie-pitt-muay-thai-practice-los-angeles-signature-pink-hair/" target="_blank" rel="noopener noreferrer"><h3>Knox Jolie-Pitt looks ripped after Muay Thai practice in Los Angeles with signature pink hair</h3><img src="https://www.hola.com/us/horizon/landscape/1200/61ed99dcfb80-bkgknoxj26101901.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>CELEBRITY KIDS</p><div class="safe-news-meta">hola.com - 8h</div></a><a class="safe-news-card" href="https://www.sacbee.com/news/california/fires/article317709640.html" target="_blank" rel="noopener noreferrer"><h3>Breaking: New wildfire reported in Los Angeles County on Oct. 20</h3><img src="https://www.mcclatchy-wires.com/public/incoming/6yjfgx/picture290003454/alternates/LANDSCAPE_1200/904274ad-cc18-4c6a-b772-fd81b276817c" alt="" loading="lazy" referrerpolicy="no-referrer"><p>First discovered: 7:07 p.m. Oct. 20</p><div class="safe-news-meta">sacbee.com - 8h</div></a><a class="safe-news-card" href="https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens" target="_blank" rel="noopener noreferrer"><h3>Some on DOJ&#x27;s 20,000 &quot;likely&quot; noncitizen list in Calif. appear to be U.S.-born</h3><img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x3034+0+0/resize/4800x3034!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fae%2F05%2Fe094939042b6a76341fa64202054%2Fgettyimages-2278767719.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Election officials in Los Angeles County say their preliminary analysis of the federal government&#x27;s list of 20,000 &quot;likely&quot; noncitizens registered to vote in California shows the list is &quot;unreliable.&quot;</p><div class="safe-news-meta">npr.org - 8h</div></a><a class="safe-news-card" href="https://secretlosangeles.com/california-rise-west-nile-virus-cases/" target="_blank" rel="noopener noreferrer"><h3>California is seeing a rise in West Nile virus cases, and mosquitoes are still active across the region</h3><img src="https://offloadmedia.feverup.com/secretlosangeles.com/wp-content/uploads/2026/10/20075631/Mosquito-1.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Mosquito season is lasting longer across SoCal, making it important to know how to prevent bites and recognize symptoms.</p><div class="safe-news-meta">secretlosangeles.com - 10h</div></a><a class="safe-news-card" href="https://www.latimes.com/california/story/2026-10-20/some-glp-1-injections-recalled-due-to-lack-of-assurance-of-sterility" target="_blank" rel="noopener noreferrer"><h3>Some GLP-1 injections recalled due to &#x27;lack of assurance of sterility&#x27;</h3><img src="https://ca-times.brightspotcdn.com/dims4/default/a8eac3b/2147483647/strip/true/crop/2400x1260+0+170/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd9%2F2e%2F4edcde4347258bceacdf02ef0cfb%2Flat-microdose-final.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Apothecary Pharma, a compounding pharmacy, voluntarily recalled 22 vials of Tirzepatide injections due to a “lack of assurance of sterility,” according to the official announcement.</p><div class="safe-news-meta">latimes.com - 10h</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
